@@ -511,7 +511,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 
   }
 
-  newFrame(){
+  function newFrame(){
 
     if(!frameRequest){
     window.requestAnimationFrame(updatePositions);
@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       items = document.querySelectorAll('.mover');
 
-  ;
+  
 
   updatePositions();
 });
