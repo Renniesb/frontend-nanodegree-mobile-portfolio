@@ -501,18 +501,26 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 
 
 
+  var items = []; 
+  
+  
+
+
+
 function updatePositions() {
+  
+
   frame++;
-  window.performance.mark("mark_start_frame");
+  window.performance.mark("mark_start_frame"); 
 
-  var items = document.querySelectorAll('.mover');
+ 
 
-  var phaseNumber = document.body.scrollTop / 1250;
-  var itemsLength = items.length;
-  var phase;
+  
+   var phaseNumber = document.body.scrollTop / 1250;
 
-  for (var i = 0; i < itemsLength; i++) {
-     phase = Math.sin(phaseNumber  + (i % 5));
+   
+  for (var i = 0, itemsLength= items.length; i < itemsLength; i++) {
+    var phase = Math.sin(phaseNumber  + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
@@ -543,5 +551,12 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     document.querySelector("#movingPizzas1").appendChild(elem);
   }
+
+   if (items.length === 0) {
+
+      items = document.querySelectorAll('.mover');
+
+  };
+
   updatePositions();
 });
