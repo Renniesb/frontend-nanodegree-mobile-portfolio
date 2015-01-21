@@ -501,9 +501,24 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 
 
 
-  var items = []; 
-  
-  
+  var items = [], 
+  lastScrollValue=0,
+  frameRequest=false;
+
+  function onScroll(){
+    lastScrollValue=window.scrollY;
+    newFrame();
+
+  }
+
+  newFrame(){
+
+    if(!frameRequest){
+    window.requestAnimationFrame(updatePositions);
+  }
+    frameRequest=true;
+
+  }
 
 
 
@@ -512,11 +527,8 @@ function updatePositions() {
 
   frame++;
   window.performance.mark("mark_start_frame"); 
-
- 
-
   
-   var phaseNumber = document.body.scrollTop / 1250;
+  var phaseNumber = lastScrollValue / 1250;
 
    
   for (var i = 0, itemsLength= items.length; i < itemsLength; i++) {
@@ -532,10 +544,12 @@ function updatePositions() {
     var timesToUpdatePosition = window.performance.getEntriesByName("measure_frame_duration");
     logAverageFrame(timesToUpdatePosition);
   }
+
+  frameRequest=false;
 }
 
 // runs updatePositions on scroll
-window.addEventListener('scroll', updatePositions);
+window.addEventListener('scroll', onScroll,false);
 
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
@@ -552,11 +566,9 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector("#movingPizzas1").appendChild(elem);
   }
 
-   if (items.length === 0) {
-
       items = document.querySelectorAll('.mover');
 
-  };
+  ;
 
   updatePositions();
 });
