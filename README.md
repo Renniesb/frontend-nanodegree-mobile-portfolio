@@ -1,7 +1,7 @@
 ## Website Performance Optimization portfolio project
 
-	To see the production version of this project view the gh-pages link * <a href="http://renniesb.github.io/frontend-nanodegree-mobile-portfolio/">mobile portfolio optimization- production version</a>
-	the developement version is located in my master branch. * <a href="https://github.com/Renniesb/frontend-nanodegree-mobile-portfolio">mobile portfolio optimiztion- master branch </a>
+To see the production version of this project view the gh-pages link * <a href="http://renniesb.github.io/frontend-nanodegree-mobile-portfolio/">mobile portfolio optimization- production version</a>
+the developement version is located in my master branch. * <a href="https://github.com/Renniesb/frontend-nanodegree-mobile-portfolio">mobile portfolio optimiztion- master branch </a>
 
 
 ## index.html optimizations
