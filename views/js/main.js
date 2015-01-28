@@ -449,6 +449,7 @@ var resizePizzas = function(size) {
   }
 
   // Iterates through pizza elements on the page and changes their widths
+  //takes unnecessary variables out of for loop for a more efficient resizing of pizzas
   function changePizzaSizes(size) {
 
     var selectPizzas= document.querySelectorAll(".randomPizzaContainer");
@@ -526,15 +527,15 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 
 function updatePositions() {
   
-
+//relocate items array to avoid recreation of variable on each function call
   frame++;
   window.performance.mark("mark_start_frame"); 
 
   //save the calculation to avoid calculating this value for every pizza in the background
-  
   var phaseNumber = lastScrollValue / 1250;
 
-   
+   //store items.length once for a more efficient and faster code.
+   //use style.transform to use GPU and avoid re-layout time.
   for (var i = 0, itemsLength= items.length; i < itemsLength; i++) {
     var phase = Math.sin(phaseNumber  + (i % 5));
       items[i].style.transform = "translateX("+ 100 * phase + "px)";
@@ -562,6 +563,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var s = 256;
 
   //reduce number of pizzas to amount of pizzas that are visible
+  //set initial .left values for each element to avoid doing it constantly in updatePositions function.
   for (var i = 0; i < 35; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
