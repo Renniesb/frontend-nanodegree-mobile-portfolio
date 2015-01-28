@@ -21,7 +21,9 @@ I also made changes to the changePizzaSizes Function, I took the selectPizzas ar
 
 I also decreased the number of pizzas to the amount that are visible by the user.
 
-##minification I used <a href="http://javascript-minifier.com/">http://javascript-minifier.com/</a> to minify my main.js javascript file.
+##minification 
+
+I used <a href="http://javascript-minifier.com/">http://javascript-minifier.com/</a> to minify my main.js javascript file.
 
 
 
