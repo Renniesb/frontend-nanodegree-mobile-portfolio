@@ -6,7 +6,7 @@ the developement version is located in my master branch. * <a href="https://gith
 
 ## index.html optimizations
 
-In order to optimize this page I shrinked and compressed the pizzeria image. I also compressed the profile pic image. I looked at the critical path and differed javascript deployment till the end of the document. I also took the necessary latin styles from the google style sheets and placed them in style.css. I then difered the deployment of the style.css stylesheet in a javascript statement at the end of the document.
+In order to optimize the speed of this page I shrinked and compressed the pizzeria image. I also compressed the profile pic image. I looked at the critical path and differed javascript deployment till the end of the document. I also took the necessary latin styles from the google style sheets and placed them in style.css. I then difered the deployment of the style.css stylesheet in a javascript statement at the end of the document.
 
 ## main.js optimizations
 
