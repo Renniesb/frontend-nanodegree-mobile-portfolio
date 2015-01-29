@@ -54,4 +54,4 @@ References I used for achieving a score of 96 on PageSpeed Insights:
 		Classmate Kevin Mayo's gh page
 		http://kevdonk.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html
 
-		 HipChap conversations with Classmates.
+		 HipChat conversations with Classmates.
