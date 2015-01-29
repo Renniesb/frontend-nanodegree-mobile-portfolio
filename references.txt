@@ -1,4 +1,4 @@
-References I used for achieving a score of 96 on PageSpeed Insights:
+References I used for achieving a score of 90+ on PageSpeed Insights:
 
 		
 		Optimize CSS Delivery- 
