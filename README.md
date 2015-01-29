@@ -32,5 +32,9 @@ I decreased the number of pizzas to the amount that are visible by the user.
 
 I used <a href="http://javascript-minifier.com/">http://javascript-minifier.com/</a> to minify my main.js javascript file.
 
+##References
+
+See <a href="https://github.com/Renniesb/frontend-nanodegree-mobile-portfolio/edit/master/references.txt">references.txt</a> for a list of my references
+
 
 
