@@ -1,0 +1,57 @@
+References I used for achieving a score of 90+ on PageSpeed Insights:
+
+		
+		Optimize CSS Delivery- 
+		https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery#CSSattributes
+
+		Reducing google styles- http://codepen.io/anon/pen/vEyvRB, http://css-tricks.com/snippets/css/basics-of-google-font-api/
+
+		
+		HipChat conversations with Classmates
+
+
+										
+
+	References I used for improving frame rates per second: 
+
+				
+
+		RequestAnimationFrame
+		http://creativejs.com/resources/requestanimationframe/
+		http://www.html5rocks.com/en/tutorials/speed/animations/
+
+		Transform property
+		https://developer.mozilla.org/en-US/docs/Web/CSS/transform#translateX
+		https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
+
+
+		Hardware Acceleration
+		http://davidwalsh.name/translate3d
+		http://blog.teamtreehouse.com/increase-your-sites-performance-with-hardware-accelerated-css
+		http://aerotwist.com/blog/on-translate3d-and-layer-creation-hacks/
+		http://css-tricks.com/almanac/properties/p/perspective/
+		https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
+		http://css-tricks.com/almanac/properties/b/backface-visibility/
+		http://www.html5rocks.com/en/tutorials/speed/layers/
+		http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
+
+
+		Office Hours for P4
+		https://plus.google.com/events/comnga3cdvrpkjm7dvb4l71ph2o?authkey=CPbhlNSdtpiEDg
+
+		Scrolling Performance
+		http://www.html5rocks.com/en/tutorials/speed/scrolling/
+
+		Jank Busting for Better Rendering Performance
+		http://www.html5rocks.com/en/tutorials/speed/rendering/
+
+		This Piazza post
+		https://piazza.com/class/i0sf6tsmg0r7do?cid=1017			
+
+		Classmate Rasheed Bustamam's project
+		https://github.com/abustamam/mobile-portfolio
+
+		Classmate Kevin Mayo's gh page
+		http://kevdonk.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html
+
+		 HipChap conversations with Classmates.
