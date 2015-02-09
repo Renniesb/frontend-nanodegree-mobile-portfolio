@@ -1,6 +1,6 @@
 ## Website Performance Optimization portfolio project
 
-To see the production version of this project view the gh-pages link * <a href="http://renniesb.github.io/frontend-nanodegree-mobile-portfolio/">mobile portfolio optimization- production version</a>
+To see the production version of this project view the gh-pages link * <a href="http://renniesb.github.io/frontend-nanodegree-mobile-portfolio/production">mobile portfolio optimization- production version</a>
 the developement version is located in my master branch. * <a href="https://github.com/Renniesb/frontend-nanodegree-mobile-portfolio">mobile portfolio optimization- master branch </a>
 
 
@@ -32,7 +32,7 @@ I decreased the number of pizzas to the amount that are visible by the user.
 
 ##minification 
 
-I used <a href="http://javascript-minifier.com/">http://javascript-minifier.com/</a> to minify my main.js javascript file.
+I used the build tool gulp.js in order to minify my javascript and some image files. I saved these files within the production folder. This folder contains the complete production version of the project.
 
 ##References
 
